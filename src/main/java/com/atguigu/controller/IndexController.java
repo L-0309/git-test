@@ -21,4 +21,8 @@ public class IndexController {
     public String uc(){
         return "uc";
     }
+    @GetMapping("/im")
+    public String um(){
+        return "um";
+    }
 }
