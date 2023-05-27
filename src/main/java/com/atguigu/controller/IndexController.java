@@ -29,4 +29,8 @@ public class IndexController {
     public String test(){
         return "分支切换";
     }
+    @GetMapping("/test1")
+    public String test1(){
+        return "master test";
+    }
 }
