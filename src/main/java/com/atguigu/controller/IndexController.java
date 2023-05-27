@@ -37,4 +37,8 @@ public class IndexController {
     public String test2(){
         return "push test";
     }
+    @GetMapping("/test3")
+    public String test3(){
+        return "pull test";
+    }
 }
