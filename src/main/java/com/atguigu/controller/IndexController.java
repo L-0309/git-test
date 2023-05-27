@@ -17,4 +17,8 @@ public class IndexController {
     public String u(){
         return "hi,首次";
     }
+    @GetMapping("/ip")
+    public String uc(){
+        return "uc";
+    }
 }
