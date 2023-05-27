@@ -25,4 +25,8 @@ public class IndexController {
     public String um(){
         return "um";
     }
+    @GetMapping("/test")
+    public String test(){
+        return "分支切换";
+    }
 }
